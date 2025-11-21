@@ -65,7 +65,6 @@ const TaskSchema = new Schema<ITask>({
     },
     description: {
         type: String,
-        required: true,
     },
     important: {
         type: Boolean,
